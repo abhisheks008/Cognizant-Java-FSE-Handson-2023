@@ -9,6 +9,8 @@ Note:
 - Do not use 'ES6' features.
 
 
+----------
+
 1. Sample HTML page before checked:
 
 ![image](https://github.com/abhisheks008/Cognizant-Java-FSE-Hands-ons-2023/assets/68724349/ef77d18e-1484-4ce3-9634-5f9b438ecde6)
