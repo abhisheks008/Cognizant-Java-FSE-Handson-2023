@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- DO NOT DELETE THE GIVEN TEMPLATE. FILL YOUR CODE WHEREVER NECESSARY -->
+<html lang="en">
+<head>
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<h2>Feedback form</h2>
+		<form action="#" class="form-group" onsubmit="return false">
+			<div>
+				<label for="customerName">Customer Name:</label>
+				<input type="text" name="Customer Name" id="customerName" class="form-control" />
+
+			</div>
+			<div>
+				<label for="mobileNumber">Mobile Number:</label>
+				<input type="text" name="Mobile Number" id="mobileNumber" class="form-control" />
+
+			</div>
+			<div>
+				<label for="email">Email:</label>
+				<input type="email" name="Email" id="email" class="form-control" />
+
+			</div>
+
+			<div class="form-check">
+				<label for="gender">Gender:</label>
+
+				<input type="radio" name="gender" id="male" class="form-check-input" value="male"/>
+				<label class="form-check-label" for="male"> Male </label>
+
+				<input type="radio" name="gender" id="female" class="form-check-input" value="female"/>
+				<label class="form-check-label" for="female">Female </label>
+			</div>
+			<div>
+				<label for="remarks">Remarks:</label>
+				<textarea name="Remarks" id="remarks" class="form-control" ></textarea>
+
+			</div>
+			<div>
+				<input type="checkbox" name="Subscribe" id="subscribe" class="form-check-input" />
+
+
+				<label> Accept to subscribe for newsletters through email</label>
+			</div>
+
+			<div>
+				<input type="submit" name="Submit" id="submit" class="btn btn-success btn-lg">
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>
