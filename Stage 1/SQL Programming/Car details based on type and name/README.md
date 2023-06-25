@@ -1,4 +1,4 @@
-Car details based on type and name
+### Car details based on type and name
 
 Write a query to display car id, car name and car type of Maruthi company 'Sedan' type cars.  Sort the result based on car id.
 
