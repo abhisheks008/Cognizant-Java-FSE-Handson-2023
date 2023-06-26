@@ -1,0 +1,21 @@
+<h2> GNN Book House</h2>
+
+<form>
+    
+    <table>
+        <tr>
+            <td>ISBN</td>
+            <td><select name="isbn" id="isbn" [(ngModel)]="isbn" #ctrl="ngModel">
+                <option *ngFor="let b of books" [value]="b.isbn">{{b.isbn}}</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Quantity</td>
+            <td><input type="number" name="quantity" id="quantity" [(ngModel)]="quantity" #ctrl="ngModel" /></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button name="update" id="update" (click)="updateQuantity()">Update</button></td>
+        </tr>
+    </table>
+
+</form>
