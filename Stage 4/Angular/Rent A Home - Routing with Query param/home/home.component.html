@@ -1,0 +1,30 @@
+<body style="background-color: rgb(138, 138, 130);">
+     
+    <form>
+        <table>
+            <tr *ngIf="flag == '1'">
+                <td>House Type</td>
+                <td><input type="text" name="houseType" id="houseType" /></td>
+            </tr>
+            <tr *ngIf="flag == '2'">
+                <td>search</td>
+                <td><input type="text" name="searchText" id="searchText" /></td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td><input type="text" name="location" id="location" /></td>
+            </tr>
+            <tr *ngIf="flag == '1'">
+                <td>Contact Number</td>
+                <td><input type="text" name="contactNumber" id="contactNumber" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" *ngIf="flag == '1'" name="post" id="post" value="Post" />
+                    <input type="button" *ngIf="flag == '2'" name="search" id="search" value="Search" />
+                </td>
+            </tr>
+        </table>
+   
+    </form>
+    </body>
