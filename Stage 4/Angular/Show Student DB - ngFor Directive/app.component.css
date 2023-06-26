@@ -1,0 +1,25 @@
+table{
+    border-collapse: collapse;
+}
+
+.table{
+    width:50%;
+    margin-bottom:1rem;
+}
+
+tr:nth-child(odd){
+    background-color: #f2f2f2;
+    
+}
+
+table, th, td{
+    border: 1px solid black;
+    text-align: left;
+    /*height: 20px;*/
+    padding: 5px;
+}
+
+thead tr{
+    background-color: #7456df;
+    color: white;
+}

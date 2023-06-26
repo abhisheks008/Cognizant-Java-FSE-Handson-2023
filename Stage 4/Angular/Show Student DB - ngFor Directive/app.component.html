@@ -1,0 +1,25 @@
+<!-- Create a table and Show the student details using ngFor Directive -->
+
+<html>
+<body>
+    <table class="table table-striped table-bordered">
+        <thead class="bg-primary bg-opacity-50">
+            <!-- Implement Your Code Here for thead-->
+            <tr>
+                <th>Name</th>
+                <th>Register Number</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Implement Your Code Here for tbody-->
+            <tr *ngFor="let s of student">
+                <td>{{ s.name }}</td>
+                <td>{{ s.registerNumber }}</td>
+                <td>{{ s.age }}</td>
+            </tr>
+    
+        </tbody>
+</table>     
+</body>
+</html>
