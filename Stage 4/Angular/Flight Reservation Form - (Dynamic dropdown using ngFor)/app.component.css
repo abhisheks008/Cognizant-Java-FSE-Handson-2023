@@ -1,0 +1,52 @@
+body {
+    background-color: bisque;
+    height: 600px;
+}
+
+h1 {
+    color: #FFFFFF;
+    width: 80%;
+    font-size:25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #73498f;
+    text-align: center;
+}
+
+td, tr, table {
+   
+    border:#280341;
+    background-color: honeydew;
+    width: 40%;
+    font-size: 22px; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 8px;
+    color: #280341;
+    text-align: center;
+}
+
+table, td {
+    border: inset;
+}
+
+#submit {
+    padding: 8px;
+    width: 10%;
+    margin-top: 2%;
+    margin-left: 45%;
+    cursor: pointer;
+    font-size: 15px; 
+    background-color: #280341;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+p {
+    margin-left: 400px;
+    
+    cursor: pointer;
+    font-size: 20px; 
+    color: #000000;
+}

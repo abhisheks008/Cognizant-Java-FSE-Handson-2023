@@ -1,0 +1,47 @@
+<body>
+  <!--Fill code for heading-->
+   <h1>Flight Reservation Form</h1>
+
+  
+  <table>
+    <tr>
+      <!--Fill code for name-->
+      <td><label for="name">Name</label></td>
+      <td><input type="text" id="name" name="name"></td>
+    </tr>
+    <tr>
+      <!--Fill code for Number of Tickets-->
+      <td><label for="tickets">Number of Tickets</label></td>
+      <td><input type="number" id="tickets" name="tickets"></td>
+    </tr>
+    <tr>
+      <!--Fill code for Departure City-->
+      <td><label for="departure">Departure City</label></td>
+      <td><input type="text" id="departure" name="departure"></td>
+    </tr>
+    <tr>
+      <!--Fill code for Destination City-->
+      <td><label for="destination">Destination City</label></td>
+      <td><input type="text" id="destination" name="destination"></td>
+    </tr>
+    <tr>
+      <!--Fill code for Flight Class Type-->
+      <!--Fill code for dynamic dropdown-->
+      <td><label for="flightClass">Flight Class Type</label></td>
+      <td>
+          <select id="flightClass" name="flightClass">
+              <option value="">Select Flight Class Type</option>
+              <option *ngFor="let flightClass of flightClassList" [value]="flightClass.name">{{ flightClass.name }}</option>
+          </select>
+      </td>
+    </tr>
+    <tr>
+        <td><button (click)="showStatus()">Book Ticket</button></td>
+    </tr>
+  </table>
+  <!--Fill you code here for button and display status-->
+  
+  <p>{{ status }}</p>
+</body>
+
+
