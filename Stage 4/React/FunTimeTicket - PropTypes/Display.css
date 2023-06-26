@@ -1,0 +1,17 @@
+h1,div,h3{
+    text-align: center;
+    color:blue;
+}
+body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:65px;
+    background-color:rgb(238, 181, 24);
+    
+}
+div{
+    font-size: larger;
+    color:rgb(226, 27, 27);
+    font-weight: bold;
+}
