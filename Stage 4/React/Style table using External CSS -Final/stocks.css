@@ -1,0 +1,17 @@
+/*Please do not make any changes in the given code template*/
+
+body{
+    background-color: #F7ea26;
+}
+
+.tableCSS{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.tdCSS{
+ border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+  text-align: left;
+}
+
