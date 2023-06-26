@@ -1,0 +1,13 @@
+h1,div,h3{
+   text-align: center;
+    font-weight:bold;
+   
+    color:rgb(19, 222, 236);
+    background-color: darkslateblue;
+}
+div,body{
+    font-size:larger;
+    
+    color: rgb(238, 181, 24);
+    background-color: darkslateblue;
+}
