@@ -1,0 +1,12 @@
+table, tr, td {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    width: 45%;
+    border-style: ridge;
+    text-align: center;
+}
+
+div {
+    margin-top: 30px;
+}
