@@ -1,0 +1,22 @@
+/*Please do not make any changes in the given template*/
+h3{
+    text-align: center;
+   
+}
+
+h3,h6{
+    color:aquamarine
+}
+body{
+    background-color:cornflowerblue;    
+    margin-left: 50px;
+}
+p{
+    font-size: larger;
+    margin-top: 50px;
+    color:white;
+}
+table{
+    color:aliceblue;
+    font-size: 16px;
+}
