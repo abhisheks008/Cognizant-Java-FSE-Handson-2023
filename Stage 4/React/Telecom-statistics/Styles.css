@@ -1,0 +1,23 @@
+ /*Please do not make any changes in the given template*/
+
+h1{
+    text-align: center;
+    color: cyan;
+}
+
+h3{
+    color:aquamarine
+}
+body{
+    background-color:darkcyan;    
+    margin-left: 50px;
+}
+p{
+    font-size: larger;
+    margin-top: 50px;
+    color:white;
+}
+table{
+    color:aliceblue;
+    font-size: 16px;
+}
