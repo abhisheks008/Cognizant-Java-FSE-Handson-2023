@@ -1,0 +1,24 @@
+body {
+    background-color: #52BE80;
+}
+
+.nav{
+display:flex;
+flex-wrap:wrap;
+padding-left:0;
+margin-bottom:0;
+list-style:none}
+
+.nav-link{
+display:block;
+padding:0.5rem 1rem;
+/*font-size:var(--bs-nav-link-font-size);*/
+/*font-weight:var(--bs-nav-link-font-weight);*/
+color:#0d6efd;
+text-decoration:none;
+transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out}
+
+
+.nav-link.active{
+color:#f8f9fa;
+}

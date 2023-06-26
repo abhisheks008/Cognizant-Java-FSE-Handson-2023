@@ -1,0 +1,12 @@
+<body style="background-color: #52BE80;">
+    <nav class="nav">
+    
+     <!--Design the page as per the requirement-->
+     
+     <a id="rentHome" class="nav-link" [routerLink]="['/home']" [queryParams]="{flag: '1'}" >Rent A Home</a>
+     <a id="searchHome" class="nav-link" [routerLink]="['/home']" [queryParams]="{flag: '2'}" >Search Home</a>
+     
+    </nav>
+    <router-outlet></router-outlet>
+
+</body>
