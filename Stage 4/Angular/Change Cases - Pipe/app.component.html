@@ -1,0 +1,15 @@
+ <body>
+     <table>
+         <tr>
+             <th>Name</th>
+             <th>Register Number</th>
+             <th>Age</th>
+         </tr>
+         <tr *ngFor="let s of student">
+             <td>{{ s.name | uppercase }}</td>
+             <td>{{ s.registerNumber | lowercase }}</td>
+             <td>{{ s.age }}</td>
+         </tr>
+     </table>
+ </body>
+ <!-- Implement Your Code Here -->
