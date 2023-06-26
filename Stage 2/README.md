@@ -1,4 +1,4 @@
-## Stage 2- Application Frameworks
+## Stage 2 - Application Frameworks
 
 - Data Structures and Algorithms
 - Spring Core, Maven
