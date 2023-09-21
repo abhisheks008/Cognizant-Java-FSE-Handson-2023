@@ -1,0 +1,22 @@
+//IN THIS PROGRAM OF EMPLOYEE LOAN ELIGIBILITY, WHEN EXECUTED IT ALWAYS SHOWS 0.0 AS THE ANSWER FOR ALL TYPE OF INPUT. 
+//THIS IS BECAUSE TO GET THE LOAN AMOUNT FIRST THE SALARY OF THE EMPLOYEES SHOULD BE CALCULATED. 
+//BUT THE EMPLOYEE SALARY CALCULATION METHOD IS NOT CALLED IN THE MAIN METHOD WHICH CAUSES THE ERROR. 
+//TO WRITE CODE CORRECTLY UPDATE THE FOLLOWING CODE...
+
+package EmployeeLoanEligibility;
+
+public class Main {
+    public static void main(String[] args) {
+        PermanentEmployee permanentEmployee = new permanentEmployee(123, "MOZART", 200000.546);
+        temporaryEmployee temporaryEmployee = new temporaryEmployee(456, "LUDWIG VAN BEETHOVEN", 6, 500);
+        emp01.calculateSalary();
+        emp02.calculateSalary();
+
+        Loan loan = new Loan();
+        double permanentEmployeeLoan = loan.calculateLoanAmount(permanentEmployee);
+        double temporaryEmployeeLoan = loan.calculateLoanAmount(temporaryEmployee);
+
+        System.out.println(permanentEmployeeLoan);
+        System.out.println(temporaryEmployeeLoan);
+    }
+}
